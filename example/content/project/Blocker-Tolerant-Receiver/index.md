@@ -10,9 +10,9 @@ cover: "./preview.png"
 venue: "National First Prize, The 6th China College IC Competition(IEEE Cup)"
 authors:
   - "Minjing Lee"
-  
+priority: 5  
 links:
-  
+
 ---
 
 

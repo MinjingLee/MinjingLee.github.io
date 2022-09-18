@@ -15,7 +15,7 @@ cover: "./preview.png"
 venue: ""
 authors:
   - "Minjing Lee"
-  
+priority: 10   
 links:
   
 ---

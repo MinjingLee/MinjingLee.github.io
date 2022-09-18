@@ -73,7 +73,7 @@ module.exports = {
   ],
   interests: [
     {
-      icon: 'signal-stream',
+      icon: 'waveform',
       title: 'RF Integrated Circuits',
     },
     {
