@@ -7,7 +7,7 @@ module.exports = {
   authorAlternative: '李旻璟',
   introduction: [
     'I am currently an undergraduate student majoring in Microelectronics and minoring in Philosophy at Shanghai Jiao Tong University[(SJTU)](https://en.sjtu.edu.cn/).',
-    'My research interest mainly lies in Analog and RF integrated circuits design. Currently I am interested in the RF front-end circuits exploiting N-Path techniques. I want to make wireless circuits and systems more efficient to help protect the earth.',
+    'My research interest mainly lies in Analog and RF integrated circuits design. Currently I am interested in the tunable RF front-end circuits exploiting N-Path techniques. I hope to contribute to efficient and green wireless circuits to save the energy and help protect the beautiful earth I love.',
     'I am applying for PhD programs, and I expect to graduate in Summer 2023. Please reach out to me if you are looking for PhD students.',
   ],
   avatar: 'avatar.png',
@@ -73,12 +73,16 @@ module.exports = {
   ],
   interests: [
     {
-      icon: 'wifi',
+      icon: 'signal-stream',
       title: 'RF Integrated Circuits',
     },
     {
-      icon: 'cpu',
+      icon: 'microchip',
       title: 'Analog Integrated Circuits',
+    },
+    {
+      icon: 'leaf',
+      title: 'Energy-Efficient Circuits',
     },
 //    {
 //      icon: ['fab', 'docker'],
