@@ -1,13 +1,14 @@
 ---
 title: "Low Power Successive Approximation Register Analog-to-Digital Converter"
 tags: 
+  - "Research"
   - "ADC"
   - "SAR ADC"
   - "Low power"
   - "Calibration techniques"
 
 date: Mar 2021 - Aug 2021
-path: "research/Low-Power-SAR-ADC"
+path: "project/Low-Power-SAR-ADC"
 excerpt: Research on calibration techniques for SAR ADC and dynamic amplifier design for pipielined SAR ADC.
 selected: true
 cover: "./preview.png"
