@@ -73,11 +73,11 @@ module.exports = {
   ],
   interests: [
     {
-      icon: 'circuits',
-      title: 'Full Stack Development',
+      icon: 'wifi',
+      title: 'RF Integrated Circuits',
     },
     {
-      icon: 'chip',
+      icon: 'cpu',
       title: 'Analog Integrated Circuits',
     },
 //    {
