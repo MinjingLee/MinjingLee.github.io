@@ -74,15 +74,15 @@ module.exports = {
   interests: [
     {
       icon: 'wifi',
-      title: 'Reconfigurable and software-defined radio',
+      title: 'Reconfigurable and Software-defined radio',
     },
     {
       icon: 'microchip',
-      title: 'Analog&RF Integrated Circuits Design',
+      title: 'Analog & Radio Frequency Integrated Circuits Design',
     },
     {
       icon: 'leaf',
-      title: 'Energy-Efficient microelectronics',
+      title: 'Energy-efficient Microelectronics',
     },
 //    {
 //      icon: ['fab', 'docker'],
