@@ -78,54 +78,19 @@ module.exports = {
     },
     {
       icon: 'network-wired',
-      title: 'Internet of Things',
+      title: 'Analog Integrated Circuits',
     },
-    {
-      icon: ['fab', 'docker'],
-      title: 'Container Technology',
-    },
-    {
-      icon: ['fab', 'linux'],
-      title: 'Open Source Community',
-    },
+//    {
+//      icon: ['fab', 'docker'],
+//      title: 'Container Technology',
+//    },
+//    {
+//      icon: ['fab', 'linux'],
+//      title: 'Open Source Community',
+//    },
   ],
   experience: [
-    {
-      title: 'Job',
-      position: 'left',
-      data: [
-        {
-          date: 'Feb. 2022 - Jul. 2022',
-          title: 'Software Engineer Intern',
-          location: 'Naive Systems',
-          description: 'Build a code analyzer and relative DevSecOps products.',
-        },
-        {
-          date: 'June 2021 - Feb. 2022',
-          title: 'Research & Development Engineer Intern',
-          location: 'Shanghai Zhimian Weiye Technology Co., Ltd.',
-          description: 'Full-stack development engineer, technical leader.',
-        }
-      ],
-    },
-    {
-      title: 'Teaching Assistant',
-      position: 'right',
-      data: [
-        {
-          date: 'Sept. 2021 - Dec. 2021',
-          title: 'Teaching Assistant of Intro to OS',
-          location: 'Shanghai Jiao Tong University',
-          description: 'Advisor: Prof. Manuel Charlemagne'
-        },
-        {
-          date: 'Sept. 2020 - Dec. 2020',
-          title: 'Teaching Assistant of Intro to Comp.',
-          location: 'Shanghai Jiao Tong University',
-          description: 'Advisor: Prof. Manuel Charlemagne'
-        },
-      ],
-    },
+    
     {
       title: 'Laboratory',
       position: 'left',
@@ -133,21 +98,16 @@ module.exports = {
         {
           date: 'Mar. 2021 - Feb. 2022',
           title: 'Research Assistant',
-          location: 'Intelligent Design and Optimization Research Lab',
-          description: 'Advisor: Prof. Mian Li'
+          location: 'Center for Analog/RF Integrated Circuits(CARFIC), Shanghai Jiao Tong University',
+          description: 'Advisor: Prof. Xiaoming Liu, Prof. Jing Jin'
         },
         {
-          date: 'July 2021 – Sept. 2021',
-          title: 'Website Developer',
-          location: 'Advanced Network Laboratory',
-          description: 'Advisor: Prof. Xiaofeng Gao'
-        },
-        {
-          date: 'March 2019 – Dec. 2019',
+          date: 'Mar. 2021 - Sep. 2021',
           title: 'Research Assistant',
-          location: 'Institute of Media, Information, and Network',
-          description: 'Advisor: Prof. Weiyao Lin'
+          location: 'Center for Analog/RF Integrated Circuits(CARFIC), Shanghai Jiao Tong University',
+          description: 'Advisor: Prof. Jing Jin'
         },
+       
       ],
     },
     {
@@ -155,20 +115,20 @@ module.exports = {
       position: 'right',
       data: [
         {
-          date: 'Sept. 2019 – Present',
-          title: 'Maintainer, Main Contributor',
-          location: 'Fans Of Computer Science',
+          date: 'Dec. 2021 – Present',
+          title: 'President',
+          location: 'SJTU Outdoor Association',
         },
         {
-          date: 'Sept. 2018 – July 2019',
-          title: 'Deputy Director',
+          date: '2021',
+          title: 'Co-Founder',
           location:
-            'Technology Department UM-SJTU Joint Institute Student Union',
+            'Philosophy Club',
         },
         {
-          date: 'Sept. 2019 - July 2019',
+          date: 'Sept. 2020 - Present',
           title: 'Member',
-          location: 'Student Science, Technology and Innovation Association',
+          location: 'SJTU Baseball Team',
         },
       ],
     },
@@ -177,49 +137,23 @@ module.exports = {
       position: 'left',
       data: [
         {
-          date: 'VE482',
-          location: 'Intro to Operating Systems (A+)',
+          date: 'TBD',
+          location: 'TBD',
         },
-        {
-          date: 'VE472',
-          location: 'Methods and Tools for big data (A+)',
-        },
-        {
-          date: 'VE281',
-          location: 'Data Structures and Algorithms (A)',
-        },
-        {
-          date: 'VE280',
-          location: 'Programming and Elem. Data Structures (A+)',
-        },
-        {
-          date: 'VE450',
-          location: 'Major Design Experience (A)',
-        },
-        {
-          date: 'VE490',
-          location: 'Undergraduate Research (A)',
-        },
-        {
-          date: 'VG101',
-          location: 'Intro to Computers and Programming (A+)',
-        },
-        {
-          date: 'VG100',
-          location: 'Intro to Engineering (A)',
-        },
+        
       ],
     },
   ],
   awards: [
     {
-      date: 'Nov. 2021',
-      title: '2020-2021 Undergraduate Excellent Scholarship',
-    },
-    {
-      date: 'June 2019',
-      title:
-        'Outstanding Member of Technology Department UM-SJTU Joint Institute Student Union',
+      date: '2022',
+      title: 'National First Prize, The 6th China College IC Competition(IEEE Cup)',
+    }, {
+      date: '2021',
+      title: 'SJTU Undergraduate Excellence Scholarship',
+    }, {
+      date: '2019, 2020, 2021',
+      title: 'Taiwanese Students Scholarship',
     },
   ],
   tagColors: [
