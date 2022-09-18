@@ -29,7 +29,7 @@ module.exports = {
     resume: 'resume',
     tags: 'tags',
     project: 'project',
-    wakatime: 'wakatime',
+    research: 'research',
   },
   social: [
     {
@@ -61,11 +61,11 @@ module.exports = {
     {
       date: 'Sept. 2019 - Aug. 2023',
       icon: 'university',
-      title: 'B.S.E. in Microelectronics (minor in Philosophy)',
+      title: 'B.Eng in Microelectronics (minor in Philosophy)',
       location: 'Shanghai Jiao Tong University, China',
     },
     {
-      date: 'Sept. 20156- June 2019',
+      date: 'Sept. 2016- June 2019',
       icon: 'school',
       title: 'High School',
       location: 'No.2 High School Of East China Normal University, Zizhu, China',
@@ -73,11 +73,11 @@ module.exports = {
   ],
   interests: [
     {
-      icon: 'layer-group',
+      icon: 'circuits',
       title: 'Full Stack Development',
     },
     {
-      icon: 'network-wired',
+      icon: 'chip',
       title: 'Analog Integrated Circuits',
     },
 //    {
