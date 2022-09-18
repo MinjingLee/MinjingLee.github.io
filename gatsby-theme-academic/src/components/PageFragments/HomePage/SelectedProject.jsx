@@ -69,7 +69,7 @@ const SelectedProject = () => {
   const tagsMap = _.mapValues(_.keyBy(tags, (tag) => tag.node.name), 'node');
   return (data.allMdx && data.allMdx.edges && data.allMdx.edges.length) ? (
     <div className={styles.homepageSection}>
-      <h2 style={{ marginBottom: '1rem' }}>Selected Project</h2>
+      <h2 style={{ marginBottom: '1rem' }}>Selected Research&Project</h2>
       <Row gutter={[20, 20]}>
         {data.allMdx &&
           data.allMdx.edges.map((val, key) => (

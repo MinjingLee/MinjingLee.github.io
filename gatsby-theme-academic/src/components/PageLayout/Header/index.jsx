@@ -64,9 +64,10 @@ export default () => {
                 Experience
               </Link>
             </li>
+            
             <li className={style.navItem}>
               <Link to="/project/" onClick={toggleMenu} partiallyActive activeClassName={style.anchorActive}>
-                Project
+                Research&Project
               </Link>
             </li>
             {/* <li className={style.navItem}>

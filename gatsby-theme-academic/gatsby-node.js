@@ -187,7 +187,7 @@ exports.createPages = async ({
     // Check path prefix of Post and Project
     if (
       frontmatter.path.indexOf(options.pages.posts) !== 0 &&
-      frontmatter.path.indexOf(options.pages.project) !== 0 &&
+      frontmatter.path.indexOf(options.pages.research) !== 0 &&
       frontmatter.path.indexOf(options.pages.project) !== 0
     ) {
       // eslint-disable-next-line no-throw-literal
