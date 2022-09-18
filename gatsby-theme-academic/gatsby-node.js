@@ -174,6 +174,7 @@ exports.createPages = async ({
         tags[tag] = {
           count: 0,
           path: '',
+          research: false,
           project: false,
           posts: false,
         };
@@ -186,6 +187,7 @@ exports.createPages = async ({
     // Check path prefix of Post and Project
     if (
       frontmatter.path.indexOf(options.pages.posts) !== 0 &&
+      frontmatter.path.indexOf(options.pages.project) !== 0 &&
       frontmatter.path.indexOf(options.pages.project) !== 0
     ) {
       // eslint-disable-next-line no-throw-literal
@@ -208,6 +210,8 @@ exports.createPages = async ({
       data.type = 'posts';
     } else if (frontmatter.path.indexOf(options.pages.project) === 0) {
       data.type = 'project';
+    } else if (frontmatter.path.indexOf(options.pages.research) === 0) {
+      data.type = 'research';
     }
 
     // encrypt post with password
@@ -285,6 +289,7 @@ exports.createPages = async ({
           tags[tag] = {
             count: 0,
             path: '',
+            research: false,
             project: false,
             posts: false,
           };
@@ -294,6 +299,8 @@ exports.createPages = async ({
           tags[tag].posts = true;
         } else if (frontmatter.path.indexOf(options.pages.project) === 0) {
           tags[tag].project = true;
+        } else if (frontmatter.path.indexOf(options.pages.research) === 0) {
+          tags[tag].research = true;
         }
       }
     }
@@ -497,6 +504,7 @@ exports.createSchemaCustomization = async (
       path: String
       color: String
       count: Int
+      research: Boolean
       project: Boolean
       posts: Boolean
     }
@@ -537,6 +545,9 @@ exports.createSchemaCustomization = async (
         resolve: (source) => {
           if (source.path.indexOf(options.pages.posts) === 0) {
             return 'posts';
+          }
+          if (source.path.indexOf(options.pages.research) === 0) {
+            return 'research';
           }
           if (source.path.indexOf(options.pages.project) === 0) {
             return 'project';
