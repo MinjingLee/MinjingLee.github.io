@@ -7,7 +7,7 @@ module.exports = {
   authorAlternative: '李旻璟',
   introduction: [
     'I am currently an undergraduate student majoring in Microelectronics and minoring in Philosophy at Shanghai Jiao Tong University[(SJTU)](https://en.sjtu.edu.cn/).',
-    'My research interest mainly lies in Analog and RF integrated circuits design. Currently I am interested in . I want to',
+    'My research interest mainly lies in Analog and RF integrated circuits design. Currently I am interested in the RF front-end circuits exploiting N-Path techniques. I want to make wireless circuits and systems more efficient to help protect the earth.',
     'I am applying for PhD programs, and I expect to graduate in Summer 2023. Please reach out to me if you are looking for PhD students.',
   ],
   avatar: 'avatar.png',
