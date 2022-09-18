@@ -37,17 +37,17 @@ module.exports = {
       icon: ['ai', 'cv'],
     },
     {
-      url: 'https://github.com/BoYanZh',
+      url: 'https://github.com/MinjingLee',
       icon: ['fab', 'github'],
     },
-    {
-      url: 'https://twitter.com/BoYanZh233',
-      icon: ['fab', 'twitter'],
-    },
-    {
-      url: 'https://www.linkedin.com/in/boming-zhang-1aba46244/',
-      icon: ['fab', 'linkedin'],
-    },
+//    {
+//      url: 'https://twitter.com/BoYanZh233',
+//      icon: ['fab', 'twitter'],
+//    },
+//    {
+//      url: 'https://www.linkedin.com/in/boming-zhang-1aba46244/',
+//      icon: ['fab', 'linkedin'],
+//    },
   ],
   // facebook: 'https://www.facebook.com/rolwin.monteiro',
   // instagram: 'https://www.instagram.com/reevan100/',
