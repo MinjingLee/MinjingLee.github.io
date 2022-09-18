@@ -7,7 +7,7 @@ tags:
 
 date: July 2022 - Present
 path: "project/RF-Front-End"
-excerpt: We developed a N-Path Filter with 3x Passive Gain and propose a passive LNA by cascoding 3x Gain N-Path Filters to replace conventional transformer, which occupied less chip area than prior arts(To be taped out with 55nm CMOS Technology and measured). A gain-boosted high oreder N-Path filter was also proposed.
+excerpt: We developed a N-Path Filter with 3x Passive Gain and proposed a passive LNA by cascoding 3x Gain N-Path Filters to replace a conventional transformer, thus occupying less chip area than prior arts(To be taped out with 55nm CMOS Technology and measured). A gain-boosted high oreder N-Path filter was also proposed.
 selected: true
 cover: "./preview.png"
 venue: ""

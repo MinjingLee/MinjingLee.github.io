@@ -7,7 +7,7 @@ module.exports = {
   authorAlternative: '李旻璟',
   introduction: [
     'I am currently an undergraduate student majoring in Microelectronics and minoring in Philosophy at Shanghai Jiao Tong University[(SJTU)](https://en.sjtu.edu.cn/).',
-    'My research interest mainly lies in Analog and RF integrated circuits design. Currently I am interested in the tunable RF front-end circuits exploiting N-Path techniques. I hope to contribute to efficient and green communication systems to save the energy and help protect the beautiful earth I love.',
+    'My research interest mainly lies in Analog and RF integrated circuits design. Currently I am interested in the tunable RF front-end circuits exploiting N-Path techniques. I hope to contribute to efficient and green integrated circuits and communication systems to improve the quality of life and help protect the beautiful earth I love.',
     'I am applying for PhD programs, and I expect to graduate in Summer 2023. Please reach out to me if you are looking for PhD students.',
   ],
   avatar: 'avatar.png',
@@ -100,7 +100,7 @@ module.exports = {
       position: 'left',
       data: [
         {
-          date: 'Mar. 2021 - Feb. 2022',
+          date: 'Mar. 2022 - Feb. 2022',
           title: 'Research Assistant',
           location: 'Center for Analog/RF Integrated Circuits(CARFIC), Shanghai Jiao Tong University',
           description: 'Advisor: Prof. Xiaoming Liu, Prof. Jing Jin'
