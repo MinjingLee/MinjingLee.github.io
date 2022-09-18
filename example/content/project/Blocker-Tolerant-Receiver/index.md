@@ -1,6 +1,7 @@
 ---
 title: "Blocker Tolerant Receiver"
 tags: 
+  - "Project"
   - "Receiver"
 date: Mar 2022 - Aug 2022
 path: "project/Blocker-Tolerant-Receiver"
@@ -10,7 +11,7 @@ cover: "./preview.png"
 venue: "National First Prize, The 6th China College IC Competition(IEEE Cup)"
 authors:
   - "Minjing Lee"
-priority: 5  
+priority: 3  
 links:
 
 ---
