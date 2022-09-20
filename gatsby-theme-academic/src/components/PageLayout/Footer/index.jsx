@@ -28,7 +28,7 @@ export default () => {
         {' style markdown'} */}
           {`Last Updated on ${buildTime}. `}
          
-          .
+          
         </Typography.Text>
       </Divider>
     </>

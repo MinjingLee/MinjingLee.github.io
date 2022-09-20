@@ -20,7 +20,7 @@ const Project = ({ data }) => (
       />
       <SidebarWrapper>
         <div className="marginTopTitle">
-          <h1 className="titleSeparate">Project</h1>
+          <h1 className="titleSeparate">Resaerch & Project</h1>
         </div>
         <Panel type="project" data={data} />
         <Footer />
