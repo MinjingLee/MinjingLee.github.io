@@ -6,7 +6,8 @@ module.exports = {
   author: 'Minjing Lee',
   authorAlternative: '李旻璟',
   introduction: [
-    'I am currently an undergraduate student majoring in Microelectronics and minoring in Philosophy at Shanghai Jiao Tong University[(SJTU)](https://en.sjtu.edu.cn/).',
+    'Hello! My name is Minjing Lee. You can also call me Jimmy Lee. I am from Taipei City, Taiwan.',
+    'I am currently an undergraduate student majoring in Microelectronics and minoring in Philosophy at Shanghai Jiao Tong University[(SJTU)](https://en.sjtu.edu.cn/). I am also an undergraduate researcher in [CARFIC](http://www.carfic-sjtu.com/).',
     'My research interest mainly lies in Analog and RF integrated circuits design. Currently I am interested in the tunable RF front-end circuits exploiting N-Path techniques. I hope to contribute to efficient and green integrated circuits and communication systems to improve the quality of life and help protect the beautiful earth I love.',
     'I am applying for PhD programs, and I expect to graduate in Summer 2023. Please reach out to me if you are looking for PhD students.',
   ],
@@ -74,7 +75,7 @@ module.exports = {
   interests: [
     {
       icon: 'wifi',
-      title: 'Reconfigurable and Software-defined radio',
+      title: 'Reconfigurable and Software-defined Radio',
     },
     {
       icon: 'microchip',
