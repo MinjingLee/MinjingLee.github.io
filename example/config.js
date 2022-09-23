@@ -7,12 +7,12 @@ module.exports = {
   authorAlternative: '李旻璟',
   introduction: [
     'Hello! My name is Minjing Lee. You can also call me Jimmy Lee. I am from Taipei City, Taiwan.',
-    'I am currently an undergraduate student majoring in Microelectronics and minoring in Philosophy at Shanghai Jiao Tong University[(SJTU)](https://en.sjtu.edu.cn/). I am also an undergraduate researcher in [CARFIC](http://www.carfic-sjtu.com/).',
-    'My research interest mainly lies in Analog and RF integrated circuits design. Currently I am interested in the tunable RF front-end circuits exploiting N-Path techniques. I hope to contribute to efficient and green integrated circuits and communication systems to improve the quality of life and help protect the beautiful earth I love.',
-    'I am applying for PhD programs, and I expect to graduate in Summer 2023. Please reach out to me if you are looking for PhD students.',
+    'I am currently an undergraduate student majoring in Microelectronics Science and Engineering and minoring in Philosophy at Shanghai Jiao Tong University[(SJTU)](https://en.sjtu.edu.cn/). I am also an undergraduate researcher in [CARFIC](http://www.carfic-sjtu.com/).',
+    'My research interest mainly lies in Analog and RF integrated circuits design. Currently, I am interested in the tunable RF front-end circuits exploiting N-Path techniques. I hope to contribute to efficient and green integrated circuits and communication systems to improve the quality of life and help protect the beautiful earth I love.',
+    'I am applying for Ph.D. programs, and I expect to graduate in June 2023. Please reach out to me if you are looking for Ph.D. students.',
   ],
   avatar: 'avatar.png',
-  professions: ['Undergraduate Student'],
+  professions: ['Senior Student'],
   tocMaxDepth: 2,
   excerptMaxLength: 500,
   birthday: 'Some day',
@@ -62,7 +62,7 @@ module.exports = {
     {
       date: 'Sept. 2019 - Aug. 2023',
       icon: 'university',
-      title: 'B.Eng in Microelectronics (minor in Philosophy)',
+      title: 'B.Eng in Microelectronics Science and Engineering (minor in Philosophy)',
       location: 'Shanghai Jiao Tong University, China',
     },
     {
@@ -138,15 +138,15 @@ module.exports = {
       ],
     },
     {
-      title: 'Coursework',
-      position: 'left',
-      data: [
-        {
-          date: 'TBD',
-          location: 'TBD',
-        },
-        
-      ],
+//      title: 'Coursework',
+//      position: 'left',
+//      data: [
+//        {
+//          date: 'TBD',
+//          location: 'TBD',
+//        },
+//        
+//      ],
     },
   ],
   awards: [
