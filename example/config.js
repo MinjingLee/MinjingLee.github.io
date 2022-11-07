@@ -7,7 +7,7 @@ module.exports = {
   authorAlternative: '李旻璟',
   introduction: [
     'Hello! My name is Minjing Lee. You can also call me Jimmy Lee. I am from Taipei City, Taiwan.',
-    'I am currently an undergraduate student majoring in Microelectronics Science and Engineering and minoring in Philosophy at Shanghai Jiao Tong University[(SJTU)](https://en.sjtu.edu.cn/). I am also an undergraduate researcher at Center for Analog/RF Integrated Circuits[(CARFIC)](http://www.carfic-sjtu.com/) founded by [Prof. Jianjun Zhou](https://ieeexplore.ieee.org/author/37404023600).',
+    'I am currently an undergraduate student majoring in Microelectronics Science and Engineering and minoring in Philosophy at Shanghai Jiao Tong University[(SJTU)](https://en.sjtu.edu.cn/). I am also an undergraduate researcher at Center for Analog/RF Integrated Circuits[(CARFIC)](https://carfic.sjtu.edu.cn/) founded by [Prof. Jianjun Zhou](https://ieeexplore.ieee.org/author/37404023600).',
     'My research interest mainly lies in Analog and RF integrated circuits design. Currently, I am interested in tunable RF front-end circuits exploiting N-Path techniques. I hope to contribute to efficient and green integrated circuits and communication systems to improve the quality of life and help protect the beautiful earth I love.',
     'I am applying for Ph.D. programs, and I expect to graduate in June 2023. Please reach out to me if you are looking for Ph.D. students.',
   ],
