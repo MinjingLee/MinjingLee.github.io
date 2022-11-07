@@ -1,0 +1,237 @@
+%-------------------------
+% Resume in Latex
+% Author : Sidratul Muntaha Ahmed
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    \textbf{\Huge \scshape Minjing Lee} \\ \vspace{1pt}
+    \small +086-21-15921901226 $|$ \href{mailto:minjing.lee@sjtu.edu.cn}{\underline{minjing.lee@sjtu.edu.cn}} $|$ 
+    \href{https://minjinglee.github.io}{\underline{Personal Website}}
+\end{center}
+
+\section{Research Interest}
+{My research interest is in Analog and RF integrated circuits design. Currently, I am interested in tunable RF front-end circuits exploiting N-path techniques. I hope to contribute to efficient and green integrated circuits and communication systems to improve the quality of life and help protect the beautiful Earth I love.}
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Shanghai Jiao Tong University}{Shanghai, China}
+      {B.Eng in Microelectronics Science and Engineering, minor in Philosophy}{Sep 2019 - June 2023(Expected)}
+          \resumeItemListStart
+            \resumeItem{\textbf{GPA: 90.25/100, 3.87/4.3 }(Ranked 4 out of 67 students)}
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------Research EXPERIENCE-----------
+\section{Research Experience}
+  \resumeSubHeadingListStart
+    
+    \resumeSubheading
+      {RF Front-End Circuits Exploiting N-Path Transformers}{July 2022 – Present}
+      {\href{http://www.carfic-sjtu.com/}{{Center for Analog/RF Integrated Circuits(CARFIC)}}, Shanghai Jiao Tong University}{Shanghai, China}
+      \resumeItemListStart
+        \resumeItem{\textbf{Advisor:} Prof Xiaoming Liu and Prof Jing Jin}
+        \resumeItem{\textbf{Paper under submission:} 
+        “Name omitted to maintain anonymity”, \underline{\textbf{Minjing Lee}}, Xiaoming Liu, Zhaolin Yang, Jing Jin.
+        \textit{[International Symposium on Circuits and Systems (ISCAS) 2023]}
+
+        
+        \emph{A compact passive LNA with an N-path 1:3 transformer is proposed to replace the bulky step-up spiral transformer, thus consuming less chip area than prior arts. }}
+        \resumeItem{\textbf{A reconfigurable prototype using an N-path 1:9 transformer is taped out in 55-nm CMOS.}}
+      
+        % \resumeItem{Proposed a gain-boosted high order N-Path filter.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Low Power Successive Approximation Register Analog-to-Digital Converter}{Mar 2021 – Aug 2021}
+     {\href{http://www.carfic-sjtu.com/}{{Center for Analog/RF Integrated Circuits(CARFIC)}}, Shanghai Jiao Tong University}{Shanghai, China}
+      \resumeItemListStart
+        \resumeItem{\textbf{Advisor:} Prof Jing Jin}
+        \resumeItem{Researched calibration techniques for SAR ADC and dynamic amplifier design for pipelined SAR ADC.}
+      \resumeItemListEnd  
+     
+    \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+
+    \resumeSubHeadingListStart
+     \resumeProjectHeading
+          {\textbf{A Spice Circuit Simulator} $|$ \emph{MR325 Introduction to Design Automation}}{Sep 2022 -- Nov 2022}
+          \resumeItemListStart
+          \resumeItem{Realized a circuit simulator in C++, capable of performing DC, AC and Tran simulations on linear elements and basic non-linear devices.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{A VCO-Based ADC} $|$ \emph{MR413 Course Design for Analog Integrated Circuits
+}}{Sep 2022 -- Nov 2022}
+          % \resumeItemListStart
+          % \resumeItem{Implemented a VCO-Based ADC in 180-nm CMOS}
+          % \resumeItemListEnd    
+      \resumeProjectHeading
+          {\textbf{A Wideband Blocker-Tolerant Receiver} $|$ \emph{\href{http://www.carfic-sjtu.com/}{{Center for Analog/RF Integrated Circuits}}}}{Mar 2022 -- Aug 2022}
+          
+         \resumeItemListStart
+            \resumeItem{Implemented a 0.5-2GHz 4-path Mixer-First receiver with a 2nd order baseband TIA in 65-nm CMOS.}
+            \resumeItem{Completed systematic tape-out flow including schematic design, simulation, layout, and post-layout verification.}
+            \resumeItem{Won \textbf{1st Prize} in National Final at \href{http://univ.ciciec.com/col.jsp?id=151}{the 6th China College IC Competition(IEEE Cup)}.}
+            
+         \resumeItemListEnd
+
+      
+         
+
+    \resumeSubHeadingListEnd
+
+
+%
+\section{Awards \& Honors}
+
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Baosteel Excellence Scholarship}, {Baosteel Education Foundation}}{2022}
+      \resumeProjectHeading
+          {\textbf{National First Prize}, \href{http://univ.ciciec.com/col.jsp?id=151}{The 6th China College IC Competition(IEEE Cup)}}{2022}
+      
+      \resumeProjectHeading
+          {\textbf{Undergraduate Excellence Scholarship}{, Shanghai Jiao Tong University}}{2021}
+      \resumeProjectHeading
+          {\textbf{Taiwanese Student Scholarship}{, Shanghai Jiao Tong University}}{2019, 2020, 2021}
+
+    \resumeSubHeadingListEnd
+%-----------COMMUNITY AND LEADERSHIP-----------
+\section{Community \& Leadership}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Outdoor Association, SJTU}{Dec 2021 – Sep 2021}
+      {President}{}
+%      \resumeItemListStart
+%        \resumeItem{Job description/Award/Achievement 1}
+%      \resumeItemListEnd
+      
+     \resumeSubheading
+      {Philosophy Club, SJTU}{2021}
+      {Co-Founder}{}
+
+    % \resumeSubheading
+    %   {Baseball Team, SJTU}{Sep 2020 – Present}
+    %   {Member}{}
+
+    \resumeSubHeadingListEnd
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Mandarin(Native), English} \\
+     \textbf{Programming}{: C++, C, Verilog, Spice} \\
+     \textbf{EDA Tools}{: Cadence Virtuoso, Cadence ADE}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
