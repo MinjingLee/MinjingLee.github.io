@@ -5,7 +5,7 @@ tags:
   - "Receiver"
 date: Mar 2022 - Aug 2022
 path: "project/Blocker-Tolerant-Receiver"
-excerpt: Implemented a 0.5-2GHz Mixer-First Receiver with 2nd Order Baseband TIA offering better selectivity and higher linearity in 65nm CMOS technology.
+excerpt: Implemented a 0.5-2GHz Mixer-First Receiver with a 2nd Order Baseband TIA offering better selectivity and higher linearity in 65nm CMOS technology.
 selected: true
 cover: "./preview.png"
 venue: "National First Prize, The 6th China College IC Competition(IEEE Cup)"

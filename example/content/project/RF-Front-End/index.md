@@ -1,5 +1,5 @@
 ---
-title: "RF Front-End Circuits exploiting N-Path Filters with 3x Passive Gain"
+title: "RF Front-End Circuits Exploiting N-Path Transformers"
 tags: 
   - "Research"
   - "RF Filter"
@@ -7,7 +7,8 @@ tags:
 
 date: July 2022 - Present
 path: "project/RF-Front-End"
-excerpt: We developed a N-Path Filter with 3x Passive Gain and proposed a passive LNA by cascoding 3x Gain N-Path Filters to replace a conventional transformer, thus occupying less chip area than prior arts(To be taped out with 55nm CMOS Technology and measured). A gain-boosted high oreder N-Path filter was also proposed.
+excerpt: A compact passive LNA with an N-path 1:3 transformer is proposed to replace the bulky step-up spiral transformer, thus consuming less chip area than prior arts. A reconfigurable prototype using an N-path 1:9 transformer is taped out in 55-nm CMOS.
+
 selected: true
 cover: "./preview.png"
 venue: ""
